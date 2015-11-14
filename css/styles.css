@@ -25,8 +25,6 @@
 }
 
 body {
-	
-	/*font-family: tahoma, sans-serif;*/
 	font-family: MyriadProRegular, sans-serif; 
 	font-size: 12pt;
 	color: black;
@@ -96,12 +94,6 @@ h4 {
   margin-left: 20px;
 }
 
-/*body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img,abbr{border:0;}address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}ul li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}*/
-
-/*div{
-	border: 1px solid black;
-}*/
-
 header { 
 	 height:100px; 
 	}
@@ -148,48 +140,6 @@ footer {
 	text-align: center;
 }
 
-/*Кнопка вверх*/
-.btn_up{
-	background: #000;
-	color: #fff;
-	width: 30px;
-	text-align:center;
-	padding: 5px;
-	font-size: 25px;
-	border-radius: 50%;
-	display: none;
-	cursor: pointer;
-	position: fixed;
-	bottom: 100px;
-	right: 50px;
-}
-
 .links {
 	text-align: center;
-}
-
-a.button {
-  display: inline-block;
-  width: 150px;
-  margin: 8px;
-  color: white;
-  text-decoration: none;
-  padding: .5em 2em;
-  outline: none;
-  border-width: 2px 0;
-  border-style: solid none;
-  border-color: #8A93C0 #000 #273E7B;
-  border-radius: 6px;
-  background: linear-gradient(#54ACDA, #3452A0) #132C7E;
-  transition: 0.2s;
-} 
-a.button:hover { background: linear-gradient(#93D4F5, #6B89D8) #E5E6E7; }
-a.button:active { background: linear-gradient(#54ACDA, #3452A0) #132C7E; }
-
-.hidden_text {
-  font-size: 13px;
-  padding: 0 10px 0 10px;
-}
- ol {
-    list-style-type: circle;
 }
