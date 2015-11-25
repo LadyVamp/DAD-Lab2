@@ -28,13 +28,13 @@ body {
 	font-family: MyriadProRegular, sans-serif; 
 	font-size: 12pt;
 	color: black;
-	background-image: url(../images/45degreee_fabric.png);
+	background-image: url(../images/subtle_white_feathers.png);
 }
 
  a { 
  	  font-size: 13pt;
     font-family: Helvetica, sans-serif;
-    color: #1F3A93;
+    color: #cc9900;
    } 
 
  a:hover { 
@@ -52,28 +52,16 @@ h1, h2{
 }
 
 h1 {	
-		font-size: 18pt;
-		color: #3A539B;
+		font-size: 24pt;
 		text-shadow: 2px 2px 0 #ccc;
     text-align: center;
+    color: #006600;
 }
 
 h2 {
 	font-size: 16pt;
-	color: #3A539B;
    text-align: left;
-}
-
-h3 {
-	font-size: 12pt;
-	color: #5069B0;
-	padding-top: 10px;
-	text-align: center;
-}
-
-h4 {
-	font-size: 12pt;
-	color: #000000;
+   color: #339933;
 }
 
 
@@ -98,9 +86,8 @@ header {
 	 height:100px; 
 	}
 
-/*Навигация*/
 nav {
-  background: #336699;
+  background: #009900;
   border-radius: 10px;
   margin: 0;
   padding: 0;
@@ -112,7 +99,7 @@ nav li {
   display: inline-block;
   width: 23%; /* для 6 пунктов меню 15%, для 5 пунктов 17%*/
   text-align: center;
-  background: #336699;
+  background: #009900;
   -webkit-transition: 1s background;
 }
 nav a {
@@ -122,7 +109,7 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  background: #57c8e8;
+  background: #00cc00;
 }
 
 section { 
@@ -131,7 +118,6 @@ section {
 	padding-left: 20px;
  }
 
-/*Подвал*/
 footer {
 	font-style: italic;
 	font-size: 12px;
@@ -140,6 +126,3 @@ footer {
 	text-align: center;
 }
 
-.links {
-	text-align: center;
-}
